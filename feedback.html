@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK</title>
+</head>
+<body ID="002">
+    
+    <form  ID="001"   style="background-color: rgb(233, 212, 185);margin: auto;width: 50%; padding-left: 2%;padding-top: 2%;border: 1px solid black;height: 100%;">
+        
+        <h3 style="text-align: center;">FEEDBACK FORM</h3>
+        
+        <label for="fname"> NAME:</label><br>
+        <input type="text" id="fname" name="fname" style="width: 90%;"><br>
+        
+        <label for="EMAIL">EMAIL:</label><br>
+        <input type="email" id="email" name="email"style="width: 90%;"><br>
+        
+        <label for="pno">PHONE NUMBER:</label><br>
+        <input type="NUMBER" id="NUM" name="pno"style="width: 90%;"><br>
+      
+        <P><B> GENDER</B></P>
+        <input type="radio" id="MALE" name="MALE" value="MALE">
+            <label for="MALE">MALE</label><br>
+            <input type="radio" id="FEMALE" name="FMALE" value="FMALE">
+            <label for="FMALE">FEMALE</label><br><BR>
+            <label for="DATE">DATE:</label><br>
+        <input type="DATE" id="DATE" name="DATE"style="width: 90%;"><br>
+
+           <P style="margin-bottom: 0%;"><B>EDUCATION</B></P>
+            
+            <input type="checkbox" id="MATRIC" name="MATRIC" value="MATRIC" style="padding-top: 0%;">
+            <label for="matric" style="padding-top: 0%;"> MATRIC</label><br>
+           
+            <input type="checkbox" id="FSC" name="FSC" value="FSC">
+            <label for="FSC"> FSC</label><br>
+            
+            <input type="checkbox" id="BS" name="BS" value="BS">
+            <label for="BS"> BS</label>
+           
+            <P style="margin-bottom: 0%;"><B>BATCH</B></P>
+            <SELECT>
+               <option>F21</option> 
+                <OPTION>F22</OPTION>
+                <OPTION>F23</OPTION>
+                <OPTION>F24</OPTION>
+            </SELECT>
+           
+            <P style="margin-bottom: 0%;margin-top: 0%;"><B>DEGREE</B></P>
+            <SELECT>
+               <option>CS</option> 
+                <OPTION>SE</OPTION>
+                <OPTION>DS</OPTION>
+                <OPTION>IT</OPTION>
+            </SELECT><BR><BR>
+        
+        <label for="COM1"> ADDITIONAL COMMENTS(1):</label><br>
+        <input type="text" id="COM1" name="COM1" style="width: 90%;height: 100px;;"><br>
+        <br>
+            
+    
+        <BUTTON onclick="document.getElementById('001').innerHTML='THANKYOU FOR YOUR FEEDBACK ! '" 
+         style="align-items: center;background-color: rgb(223, 238, 200);margin-left: 40%;margin-bottom: 20px;">
+            
+            
+            SUBMIT
+        
+        </BUTTON>
+   
+
+
+        </form>
+        
+
+</body>
+</html>
